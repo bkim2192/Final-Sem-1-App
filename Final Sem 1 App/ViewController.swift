@@ -11,6 +11,11 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var enterNumber: UITextField!
     @IBOutlet weak var Answer: UILabel!
+    @IBOutlet weak var enterNumber2: UITextField!
+    @IBOutlet weak var Answer2: UILabel!
+    
+    
+    
     //Source: https://www.youtube.com/watch?v=YkF0mby3fMA //
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,8 +52,42 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+    
+    func convert10(binary: Int) -> String {
+        
+        
+        
+        
+        
+        
+        
+        var v = ""
+        return v
+    }
+    
+    
+    
+    
+    
+    
+    @IBAction func Base10(_ sender: Any) {
+        Answer2.text = ""
+        
+        
+        var number = enterNumber2.text
+        
+        
+        
+        
+        
+        
+    }
+    
 
-
+    
+    
+    
+    
 
 
 }
